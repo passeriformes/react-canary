@@ -103,4 +103,4 @@ typings/
 .tags
 
 # dist
-# dist/
+dist/
