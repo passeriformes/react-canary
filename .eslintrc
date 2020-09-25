@@ -1,0 +1,32 @@
+{
+  "extends": ["standard", "standard-react", "eslint:recommended", "plugin:react/recommended"],
+  "parser": "babel-eslint",
+  "rules": {
+    "max-len": ["error", { "code": 100 }],
+    "comma-dangle": ["error", "always-multiline"],
+    "arrow-body-style": ["error", "as-needed"],
+    "arrow-parens": ["error", "as-needed"],
+    "no-extra-parens": ["error", "all", { "nestedBinaryExpressions": false }],
+    "no-console": "error",
+    "no-return-assign": 0,
+    "react/no-did-update-set-state": 0,
+    "no-debugger": 0,
+  },
+  "globals": {
+    "$": true,
+    "window": true,
+    "document": true,
+    "describe": true,
+    "I18n": true,
+    "it": true,
+    "xit": true,
+    "before": true,
+    "beforeEach": true,
+    "after": true,
+    "afterEach": true,
+    "localStorage": true,
+  },
+  "env": {
+      "jest": true,
+  }
+}
