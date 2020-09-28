@@ -15,9 +15,10 @@ Add the following to your package.json dependencies:
 - create a feature branch
 - add a component folder containing a component, tests, and a short description of how to use it if necessary
 - export that component in the root index
-- `yarn lint`
-- `yarn build`
-- create a pull request to master, ensure the CI passes, and get 2 code reviews
+- lint the code: `yarn lint`
+- increment the version number in the package.json
+- build the package: `yarn build`
+- create a pull request to master, ensure the CI passes
 - merge
 
 ---

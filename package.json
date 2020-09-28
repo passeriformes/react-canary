@@ -1,6 +1,6 @@
 {
   "name": "react-canary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/main.js",
   "repository": "git@github.com:passeriformes/react-canary.git",
   "scripts": {
