@@ -19,6 +19,7 @@ Add the following to your package.json dependencies:
 - increment the version number in the package.json
 - build the package: `yarn build`
 - create a pull request to master, ensure the CI passes
+- get 2 passing code reviews
 - merge
 
 ---
